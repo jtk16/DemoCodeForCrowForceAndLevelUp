@@ -107,6 +107,7 @@ public class ExampleMecanumTeleOp extends OpMode {
         double x = gamepad1.left_stick_x;
         double y = gamepad1.left_stick_y;
 
+        //rotation
         double c = gamepad1.right_stick_x;
 
         // unfortunatley, I don't have a concise explanation for how this works, if this doesn't work
