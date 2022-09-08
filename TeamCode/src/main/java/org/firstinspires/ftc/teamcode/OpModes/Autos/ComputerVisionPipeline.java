@@ -52,11 +52,8 @@ public class ComputerVisionPipeline extends OpenCvPipeline
         ComputerVisionAuto.CameraData.infoFromThePipeline = "this is one way to take data from the vision pipeline to your auto";
 
         /**
-         * NOTE: to see how to get data from your pipeline to your OpMode as well as how
-         * to change which stage of the pipeline is rendered to the viewport when it is
-         * tapped.
+         * NOTE: This is the image that will be sent to the viewport on the control hub.
          */
-
         return input;
     }
 

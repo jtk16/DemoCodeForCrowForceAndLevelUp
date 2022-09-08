@@ -13,7 +13,7 @@ import org.openftc.easyopencv.OpenCvCameraRotation;
  * IT IS ASSUMED THAT YOU HAVE READ AND UNDERSTOOD THE EXAMPLEAUTO
  * AUTO BEFORE PROCEEDING.
  */
-@Autonomous(name="opencv auto")
+
 public class ComputerVisionAuto extends LinearOpMode {
     String CAMERA_CONFIG_NAME = "Cam";
     OpenCvCamera camera;
@@ -47,6 +47,16 @@ public class ComputerVisionAuto extends LinearOpMode {
                  */
             }
         });
+        /**
+         * IF YOU WISH TO PREVIEW THE COMPUTER VISION CODE DO NOT CLICK START
+         * instead, initialize the auto as normal and then wait a second
+         * click the three dots in the top right and click camera stream
+         * once you get a picture, click it to refresh it
+         */
+
+
+        waitForStart();
+
     }
 
     // This is a method that I use to make transferring info from the pipeline to the auto easier.

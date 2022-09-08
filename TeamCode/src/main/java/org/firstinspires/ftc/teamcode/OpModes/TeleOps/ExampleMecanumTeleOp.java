@@ -60,7 +60,7 @@ public class ExampleMecanumTeleOp extends OpMode {
         back_left_motor = hardwareMap.dcMotor.get("blm");
         back_right_motor = hardwareMap.dcMotor.get("brm");
 
-        some_latch = hardwareMap.servo.get("servo_name");
+        //some_latch = hardwareMap.servo.get("servo_name");
 
         // you may need to or want to flip the directions of two of your motors, if you wish to do so
         // the code is:
@@ -139,12 +139,14 @@ public class ExampleMecanumTeleOp extends OpMode {
         // THIS SECTION OF CODE MUST BE WRITTEN AFTER THE FIRST SECTION, otherwise, wasAHeldLastFrame
         // will always hold a value of "true" when A is pressed, therefore, the toggle will never switch states
         // the code for this section is self explanatory
-        if (gamepad1.a) {
+
+
+        /*if (gamepad1.a) {
             wasAHeldLastFrame = true;
         }
         else {
             wasAHeldLastFrame = false;
-        }
+        }*/
 
     }
 
